@@ -37,7 +37,7 @@ function init(){
     $("#timer").html("");
     for(var i =0 ; i<countDownDate.length; i++ ){
       var res = 
-      '<img src="https://lh3.googleusercontent.com/proxy/xLOQKM2aCMvmtU4cUeq3YKUKG-tG_l1UFCQ5Fd05MxbkbaT7zpFm7DUglwixFhJSTNhJ0YbjZteCcqqy46_CFh6FM6WorFKJWwXQOgl_jjThV89rvBGeVrWV5iM9KZU_GgBh2EuZMlvadqSafa6elx1D8YgfAh8-oUhzQpLg_eGZbmy_W7JgBmG7Qbo" width="100" heigh="100" alt=""/>'+
+      '<img src="https://cdn1.iconfinder.com/data/icons/social-media-2112/29/Asset_16-512.png" width="100" heigh="100" alt=""/>'+
       '<div id="div'+i+'">'+returnTime(countDownDate[i], i)+'</div>';
       $("#timer").append(res)
     }
